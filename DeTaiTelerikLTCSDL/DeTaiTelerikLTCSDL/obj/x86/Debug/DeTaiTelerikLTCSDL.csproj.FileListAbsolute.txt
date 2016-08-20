@@ -1,0 +1,14 @@
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.FormDangNhap.resources
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.Properties.Resources.resources
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.csproj.GenerateResource.Cache
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.exe.licenses
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\DeTaiTelerikLTCSDL.exe
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\DeTaiTelerikLTCSDL.pdb
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\Telerik.WinControls.dll
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\Telerik.WinControls.UI.dll
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\TelerikCommon.dll
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\Telerik.WinControls.xml
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\Telerik.WinControls.UI.xml
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.exe
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.pdb
+D:\LTCSDL\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.FormGiaoDienChinh.resources
