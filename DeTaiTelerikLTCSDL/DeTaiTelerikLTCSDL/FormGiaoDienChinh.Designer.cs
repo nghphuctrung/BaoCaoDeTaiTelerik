@@ -32,7 +32,7 @@
             this.radButton1 = new Telerik.WinControls.UI.RadButton();
             this.radButton6 = new Telerik.WinControls.UI.RadButton();
             this.radButton5 = new Telerik.WinControls.UI.RadButton();
-            this.radButton3 = new Telerik.WinControls.UI.RadButton();
+            this.btnKhachHang = new Telerik.WinControls.UI.RadButton();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
             this.radButton2 = new Telerik.WinControls.UI.RadButton();
             this.aquaTheme1 = new Telerik.WinControls.Themes.AquaTheme();
@@ -41,7 +41,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKhachHang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
@@ -53,13 +53,14 @@
             this.radPanel1.Controls.Add(this.radButton1);
             this.radPanel1.Controls.Add(this.radButton6);
             this.radPanel1.Controls.Add(this.radButton5);
-            this.radPanel1.Controls.Add(this.radButton3);
+            this.radPanel1.Controls.Add(this.btnKhachHang);
             this.radPanel1.Controls.Add(this.radLabel1);
             this.radPanel1.Controls.Add(this.radButton2);
             this.radPanel1.Location = new System.Drawing.Point(42, 29);
             this.radPanel1.Name = "radPanel1";
             this.radPanel1.Size = new System.Drawing.Size(674, 414);
             this.radPanel1.TabIndex = 0;
+            this.radPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.radPanel1_Paint);
             // 
             // radButton1
             // 
@@ -95,15 +96,16 @@
             this.radButton5.Text = "In Hóa Đơn";
             this.radButton5.ThemeName = "Aqua";
             // 
-            // radButton3
+            // btnKhachHang
             // 
-            this.radButton3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radButton3.Location = new System.Drawing.Point(31, 132);
-            this.radButton3.Name = "radButton3";
-            this.radButton3.Size = new System.Drawing.Size(244, 81);
-            this.radButton3.TabIndex = 2;
-            this.radButton3.Text = "Quản Lý Khách Hàng";
-            this.radButton3.ThemeName = "Aqua";
+            this.btnKhachHang.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKhachHang.Location = new System.Drawing.Point(31, 132);
+            this.btnKhachHang.Name = "btnKhachHang";
+            this.btnKhachHang.Size = new System.Drawing.Size(244, 81);
+            this.btnKhachHang.TabIndex = 2;
+            this.btnKhachHang.Text = "Quản Lý Khách Hàng";
+            this.btnKhachHang.ThemeName = "Aqua";
+            this.btnKhachHang.Click += new System.EventHandler(this.btnKhachHang_Click);
             // 
             // radLabel1
             // 
@@ -145,7 +147,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnKhachHang)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
@@ -160,7 +162,7 @@
         private Telerik.WinControls.UI.RadButton radButton1;
         private Telerik.WinControls.UI.RadButton radButton6;
         private Telerik.WinControls.UI.RadButton radButton5;
-        private Telerik.WinControls.UI.RadButton radButton3;
+        private Telerik.WinControls.UI.RadButton btnKhachHang;
         private Telerik.WinControls.UI.RadLabel radLabel1;
         private Telerik.WinControls.Themes.AquaTheme aquaTheme1;
     }

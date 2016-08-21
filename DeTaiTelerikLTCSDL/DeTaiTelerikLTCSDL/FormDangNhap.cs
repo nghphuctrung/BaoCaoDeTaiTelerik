@@ -37,8 +37,9 @@ namespace DeTaiTelerikLTCSDL
                 if (x == 1)
                 {
                     // MessageBox.Show("Đăng Nhập Thành Công !", "Nofitication");
-                    this.Hide();
+                    Visible = false;
                     Fgdc = new FormGiaoDienChinh();
+                    Fgdc.Activate();
                     Fgdc.Show();
                 }
                 else
