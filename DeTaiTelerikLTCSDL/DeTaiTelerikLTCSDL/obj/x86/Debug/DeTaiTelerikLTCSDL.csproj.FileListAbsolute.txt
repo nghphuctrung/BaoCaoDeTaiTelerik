@@ -29,3 +29,6 @@ C:\Users\Home\Desktop\DinhOanh\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTeleri
 C:\Users\Home\Desktop\DinhOanh\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.csproj.GenerateResource.Cache
 C:\Users\Home\Desktop\DinhOanh\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.exe.licenses
 C:\Users\Home\Desktop\DinhOanh\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.csprojResolveAssemblyReference.cache
+C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\DeTaiTelerikLTCSDL.exe.config
+C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.exe
+C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.pdb
