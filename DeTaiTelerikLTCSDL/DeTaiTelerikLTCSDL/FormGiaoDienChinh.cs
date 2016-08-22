@@ -35,10 +35,5 @@ namespace DeTaiTelerikLTCSDL
             FKH.Activate();
             FKH.Show();
         }
-
-        private void radPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

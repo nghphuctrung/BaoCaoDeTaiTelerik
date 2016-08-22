@@ -61,33 +61,43 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(47, 176);
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Image = global::DeTaiTelerikLTCSDL.Properties.Resources.Button_Turn_On_icon;
+            this.btnLogin.ImageAlignment = System.Drawing.ContentAlignment.TopCenter;
+            this.btnLogin.Location = new System.Drawing.Point(47, 150);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(110, 24);
+            this.btnLogin.Size = new System.Drawing.Size(81, 84);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
+            this.btnLogin.TextAlignment = System.Drawing.ContentAlignment.BottomCenter;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // radLabel2
             // 
-            this.radLabel2.Location = new System.Drawing.Point(47, 87);
+            this.radLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.radLabel2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radLabel2.Location = new System.Drawing.Point(47, 80);
             this.radLabel2.Name = "radLabel2";
-            this.radLabel2.Size = new System.Drawing.Size(53, 18);
+            this.radLabel2.Size = new System.Drawing.Size(81, 25);
             this.radLabel2.TabIndex = 4;
             this.radLabel2.Text = "Password";
             // 
             // radLabel1
             // 
-            this.radLabel1.Location = new System.Drawing.Point(47, 49);
+            this.radLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.radLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radLabel1.Location = new System.Drawing.Point(47, 42);
             this.radLabel1.Name = "radLabel1";
-            this.radLabel1.Size = new System.Drawing.Size(47, 18);
+            this.radLabel1.Size = new System.Drawing.Size(72, 25);
             this.radLabel1.TabIndex = 5;
             this.radLabel1.Text = "Account";
             // 
             // LbConnect
             // 
-            this.LbConnect.ForeColor = System.Drawing.Color.Red;
-            this.LbConnect.Location = new System.Drawing.Point(30, 123);
+            this.LbConnect.BackColor = System.Drawing.Color.Transparent;
+            this.LbConnect.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbConnect.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.LbConnect.Location = new System.Drawing.Point(19, 123);
             this.LbConnect.Name = "LbConnect";
             this.LbConnect.Size = new System.Drawing.Size(2, 2);
             this.LbConnect.TabIndex = 4;
@@ -96,6 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::DeTaiTelerikLTCSDL.Properties.Resources._2;
             this.ClientSize = new System.Drawing.Size(289, 246);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtAccounnt);
