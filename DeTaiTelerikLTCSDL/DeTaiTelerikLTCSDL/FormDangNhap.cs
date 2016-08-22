@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using Telerik.WinControls;
 using System.Data.SqlClient;
 using Telerik.WinControls.UI;
+using System.Configuration;
 
 namespace DeTaiTelerikLTCSDL
 {
@@ -15,7 +16,7 @@ namespace DeTaiTelerikLTCSDL
     {
         FormGiaoDienChinh Fgdc;
         SqlConnection cn;
-        string cnStr = @"Server = .; Database = Login ; Integrated security = true";
+        string cnStr;
         SqlCommand cmd;
         public FormDangNhap()
         {
@@ -29,7 +30,7 @@ namespace DeTaiTelerikLTCSDL
 
                 cn = new SqlConnection(cnStr);
                 cn.Open();
-                string sql = "Select count(*) From [Login].[dbo].[TKLogin] Where TaiKhoan = @acc And MatKhau = @pass ";
+                string sql = "Select count(*) From [QLyBanHangSieuThi].[dbo].[TKLogin] Where TaiKhoan = @acc And MatKhau = @pass ";
                 cmd = new SqlCommand(sql, cn);
                 cmd.Parameters.Add(new SqlParameter("@acc", txtAccounnt.Text));
                 cmd.Parameters.Add(new SqlParameter("@pass", txtPassword.Text));
@@ -56,6 +57,12 @@ namespace DeTaiTelerikLTCSDL
                 MessageBox.Show(ex.Message);
             }
 
+        }
+
+        private void FormDangNhap_Load(object sender, EventArgs e)
+        {
+            cnStr = ConfigurationManager.ConnectionStrings["cnStr"].ConnectionString;
+            cn = new SqlConnection(cnStr);
         }
     }
 }

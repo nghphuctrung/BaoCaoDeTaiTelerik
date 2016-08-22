@@ -120,6 +120,7 @@
             // 
             this.RootElement.ApplyShapeToControl = true;
             this.Text = "FormDangNhap";
+            this.Load += new System.EventHandler(this.FormDangNhap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtPassword)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtAccounnt)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogin)).EndInit();
