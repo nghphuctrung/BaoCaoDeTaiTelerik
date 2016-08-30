@@ -108,14 +108,6 @@ namespace DeTaiTelerikLTCSDL
             }
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            if (DialogResult.Yes == MessageBox.Show("Bạn có chắc chắn muốn thoát ?", "Bảng thông báo người dùng", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
-            {
-                this.Close();
-                
-            }
-        }
 
         private void radGridView1_DoubleClick(object sender, EventArgs e)
         {
@@ -126,10 +118,6 @@ namespace DeTaiTelerikLTCSDL
             txtsodiem.Text = this.radGridView1.CurrentRow.Cells[4].Value.ToString();
         }
 
-        private void btnDelete_Click(object sender, EventArgs e)
-        {
-           
-        }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
@@ -174,9 +162,7 @@ namespace DeTaiTelerikLTCSDL
             }
         }
 
-       
-
-        private void radButton2_Click(object sender, EventArgs e)
+        private void btnXoa_Click(object sender, EventArgs e)
         {
             DialogResult = MessageBox.Show("Bạn có chắc muốn xóa!", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (DialogResult == DialogResult.OK)
@@ -203,19 +189,19 @@ namespace DeTaiTelerikLTCSDL
             }
         }
 
-        private void radButton1_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-             DialogResult = MessageBox.Show("Bạn có chắc muốn Thoát!", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-             if (DialogResult == DialogResult.OK)
-             {
-                 this.Close();
-                 FormGiaoDienChinh f = new FormGiaoDienChinh();
-                 f.Show();
-             }
-             else
-             {
-                 return;
-             }
+            DialogResult = MessageBox.Show("Bạn có chắc muốn Thoát!", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (DialogResult == DialogResult.OK)
+            {
+                this.Close();
+                FormGiaoDienChinh f = new FormGiaoDienChinh();
+                f.Show();
+            }
+            else
+            {
+                return;
+            }
         }
     }
 }

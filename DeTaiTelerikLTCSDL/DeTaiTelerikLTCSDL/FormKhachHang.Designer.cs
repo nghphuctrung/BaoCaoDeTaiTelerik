@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn16 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn17 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn18 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn19 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn20 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition4 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn5 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
             this.radGroupBox1 = new Telerik.WinControls.UI.RadGroupBox();
             this.radLabel5 = new Telerik.WinControls.UI.RadLabel();
             this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
@@ -47,8 +47,8 @@
             this.txtmakh = new Telerik.WinControls.UI.RadTextBox();
             this.txttenkh = new Telerik.WinControls.UI.RadTextBox();
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
-            this.radButton1 = new Telerik.WinControls.UI.RadButton();
-            this.radButton2 = new Telerik.WinControls.UI.RadButton();
+            this.btnExit = new Telerik.WinControls.UI.RadButton();
+            this.btnXoa = new Telerik.WinControls.UI.RadButton();
             this.btnSua = new Telerik.WinControls.UI.RadButton();
             this.btnThem = new Telerik.WinControls.UI.RadButton();
             this.radPanel2 = new Telerik.WinControls.UI.RadPanel();
@@ -68,8 +68,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.txttenkh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnXoa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSua)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnThem)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel2)).BeginInit();
@@ -100,7 +100,7 @@
             this.radGroupBox1.HeaderText = "Thông Tin Khách Hàng";
             this.radGroupBox1.Location = new System.Drawing.Point(12, 12);
             this.radGroupBox1.Name = "radGroupBox1";
-            this.radGroupBox1.Size = new System.Drawing.Size(814, 127);
+            this.radGroupBox1.Size = new System.Drawing.Size(833, 134);
             this.radGroupBox1.TabIndex = 5;
             this.radGroupBox1.Text = "Thông Tin Khách Hàng";
             this.radGroupBox1.ThemeName = "Aqua";
@@ -184,45 +184,45 @@
             // 
             this.radPanel1.BackColor = System.Drawing.Color.White;
             this.radPanel1.BackgroundImage = global::DeTaiTelerikLTCSDL.Properties.Resources._2;
-            this.radPanel1.Controls.Add(this.radButton1);
-            this.radPanel1.Controls.Add(this.radButton2);
+            this.radPanel1.Controls.Add(this.btnExit);
+            this.radPanel1.Controls.Add(this.btnXoa);
             this.radPanel1.Controls.Add(this.btnSua);
             this.radPanel1.Controls.Add(this.btnThem);
             this.radPanel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(66)))), ((int)(((byte)(139)))));
             this.radPanel1.Location = new System.Drawing.Point(12, 166);
             this.radPanel1.Name = "radPanel1";
-            this.radPanel1.Size = new System.Drawing.Size(814, 153);
+            this.radPanel1.Size = new System.Drawing.Size(833, 151);
             this.radPanel1.TabIndex = 6;
             // 
-            // radButton1
+            // btnExit
             // 
-            this.radButton1.BackColor = System.Drawing.Color.LightGray;
-            this.radButton1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radButton1.ForeColor = System.Drawing.Color.Black;
-            this.radButton1.Image = global::DeTaiTelerikLTCSDL.Properties.Resources.Action_exit_icon__1_;
-            this.radButton1.ImageAlignment = System.Drawing.ContentAlignment.TopCenter;
-            this.radButton1.Location = new System.Drawing.Point(687, 28);
-            this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(91, 94);
-            this.radButton1.TabIndex = 5;
-            this.radButton1.Text = "Thoát";
-            this.radButton1.TextAlignment = System.Drawing.ContentAlignment.BottomCenter;
-            this.radButton1.Click += new System.EventHandler(this.radButton1_Click);
+            this.btnExit.BackColor = System.Drawing.Color.LightGray;
+            this.btnExit.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.Color.Black;
+            this.btnExit.Image = global::DeTaiTelerikLTCSDL.Properties.Resources.Action_exit_icon__1_;
+            this.btnExit.ImageAlignment = System.Drawing.ContentAlignment.TopCenter;
+            this.btnExit.Location = new System.Drawing.Point(687, 28);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(91, 94);
+            this.btnExit.TabIndex = 5;
+            this.btnExit.Text = "Thoát";
+            this.btnExit.TextAlignment = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // radButton2
+            // btnXoa
             // 
-            this.radButton2.BackColor = System.Drawing.Color.LightGray;
-            this.radButton2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radButton2.ForeColor = System.Drawing.Color.Black;
-            this.radButton2.Image = global::DeTaiTelerikLTCSDL.Properties.Resources.Actions_application_exit_icon__1_;
-            this.radButton2.ImageAlignment = System.Drawing.ContentAlignment.TopCenter;
-            this.radButton2.Location = new System.Drawing.Point(357, 30);
-            this.radButton2.Name = "radButton2";
-            this.radButton2.Size = new System.Drawing.Size(91, 94);
-            this.radButton2.TabIndex = 4;
-            this.radButton2.Text = "Xóa";
-            this.radButton2.TextAlignment = System.Drawing.ContentAlignment.BottomCenter;
-            this.radButton2.Click += new System.EventHandler(this.radButton2_Click);
+            this.btnXoa.BackColor = System.Drawing.Color.LightGray;
+            this.btnXoa.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.ForeColor = System.Drawing.Color.Black;
+            this.btnXoa.Image = global::DeTaiTelerikLTCSDL.Properties.Resources.Actions_application_exit_icon__1_;
+            this.btnXoa.ImageAlignment = System.Drawing.ContentAlignment.TopCenter;
+            this.btnXoa.Location = new System.Drawing.Point(357, 30);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(91, 94);
+            this.btnXoa.TabIndex = 4;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.TextAlignment = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -259,7 +259,7 @@
             this.radPanel2.Controls.Add(this.radGridView1);
             this.radPanel2.Location = new System.Drawing.Point(12, 345);
             this.radPanel2.Name = "radPanel2";
-            this.radPanel2.Size = new System.Drawing.Size(814, 176);
+            this.radPanel2.Size = new System.Drawing.Size(833, 172);
             this.radPanel2.TabIndex = 7;
             this.radPanel2.Text = "radPanel2";
             // 
@@ -275,42 +275,42 @@
             // 
             // 
             // 
-            gridViewTextBoxColumn16.EnableExpressionEditor = false;
-            gridViewTextBoxColumn16.FieldName = "MaKH";
-            gridViewTextBoxColumn16.HeaderText = "Mã Khách Hàng";
-            gridViewTextBoxColumn16.Name = "Makhachhang";
-            gridViewTextBoxColumn16.Width = 112;
-            gridViewTextBoxColumn17.EnableExpressionEditor = false;
-            gridViewTextBoxColumn17.FieldName = "HoKH";
-            gridViewTextBoxColumn17.HeaderText = "Họ Khách Hàng";
-            gridViewTextBoxColumn17.Name = "hokhachhang";
-            gridViewTextBoxColumn17.Width = 241;
-            gridViewTextBoxColumn18.EnableExpressionEditor = false;
-            gridViewTextBoxColumn18.FieldName = "TenKH";
-            gridViewTextBoxColumn18.HeaderText = "Tên Khách Hàng";
-            gridViewTextBoxColumn18.Name = "tenkhachhang";
-            gridViewTextBoxColumn18.Width = 139;
-            gridViewTextBoxColumn19.EnableExpressionEditor = false;
-            gridViewTextBoxColumn19.FieldName = "SoDienThoai";
-            gridViewTextBoxColumn19.HeaderText = "Số Điện Thoại";
-            gridViewTextBoxColumn19.Name = "sodienthoai";
-            gridViewTextBoxColumn19.Width = 134;
-            gridViewTextBoxColumn20.EnableExpressionEditor = false;
-            gridViewTextBoxColumn20.FieldName = "SoDiem";
-            gridViewTextBoxColumn20.HeaderText = "Số Điểm";
-            gridViewTextBoxColumn20.Name = "sodiem";
-            gridViewTextBoxColumn20.Width = 98;
+            gridViewTextBoxColumn1.EnableExpressionEditor = false;
+            gridViewTextBoxColumn1.FieldName = "MaKH";
+            gridViewTextBoxColumn1.HeaderText = "Mã Khách Hàng";
+            gridViewTextBoxColumn1.Name = "Makhachhang";
+            gridViewTextBoxColumn1.Width = 112;
+            gridViewTextBoxColumn2.EnableExpressionEditor = false;
+            gridViewTextBoxColumn2.FieldName = "HoKH";
+            gridViewTextBoxColumn2.HeaderText = "Họ Khách Hàng";
+            gridViewTextBoxColumn2.Name = "hokhachhang";
+            gridViewTextBoxColumn2.Width = 241;
+            gridViewTextBoxColumn3.EnableExpressionEditor = false;
+            gridViewTextBoxColumn3.FieldName = "TenKH";
+            gridViewTextBoxColumn3.HeaderText = "Tên Khách Hàng";
+            gridViewTextBoxColumn3.Name = "tenkhachhang";
+            gridViewTextBoxColumn3.Width = 139;
+            gridViewTextBoxColumn4.EnableExpressionEditor = false;
+            gridViewTextBoxColumn4.FieldName = "SoDienThoai";
+            gridViewTextBoxColumn4.HeaderText = "Số Điện Thoại";
+            gridViewTextBoxColumn4.Name = "sodienthoai";
+            gridViewTextBoxColumn4.Width = 134;
+            gridViewTextBoxColumn5.EnableExpressionEditor = false;
+            gridViewTextBoxColumn5.FieldName = "SoDiem";
+            gridViewTextBoxColumn5.HeaderText = "Số Điểm";
+            gridViewTextBoxColumn5.Name = "sodiem";
+            gridViewTextBoxColumn5.Width = 98;
             this.radGridView1.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn16,
-            gridViewTextBoxColumn17,
-            gridViewTextBoxColumn18,
-            gridViewTextBoxColumn19,
-            gridViewTextBoxColumn20});
-            this.radGridView1.MasterTemplate.ViewDefinition = tableViewDefinition4;
+            gridViewTextBoxColumn1,
+            gridViewTextBoxColumn2,
+            gridViewTextBoxColumn3,
+            gridViewTextBoxColumn4,
+            gridViewTextBoxColumn5});
+            this.radGridView1.MasterTemplate.ViewDefinition = tableViewDefinition1;
             this.radGridView1.Name = "radGridView1";
             this.radGridView1.ReadOnly = true;
             this.radGridView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.radGridView1.Size = new System.Drawing.Size(814, 176);
+            this.radGridView1.Size = new System.Drawing.Size(833, 172);
             this.radGridView1.TabIndex = 0;
             this.radGridView1.Text = "radGridView1";
             this.radGridView1.DoubleClick += new System.EventHandler(this.radGridView1_DoubleClick);
@@ -350,8 +350,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.txttenkh)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnXoa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSua)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnThem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel2)).EndInit();
@@ -383,7 +383,7 @@
         private Telerik.WinControls.UI.RadPanel radPanel2;
         private Telerik.WinControls.UI.RadGridView radGridView1;
         private System.Windows.Forms.ErrorProvider errorProvider1;
-        private Telerik.WinControls.UI.RadButton radButton1;
-        private Telerik.WinControls.UI.RadButton radButton2;
+        private Telerik.WinControls.UI.RadButton btnExit;
+        private Telerik.WinControls.UI.RadButton btnXoa;
     }
 }

@@ -30,7 +30,7 @@
         {
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.btnKhachHang = new Telerik.WinControls.UI.RadButton();
-            this.radButton2 = new Telerik.WinControls.UI.RadButton();
+            this.btnHangHoa = new Telerik.WinControls.UI.RadButton();
             this.radButton1 = new Telerik.WinControls.UI.RadButton();
             this.radButton6 = new Telerik.WinControls.UI.RadButton();
             this.radButton5 = new Telerik.WinControls.UI.RadButton();
@@ -39,7 +39,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnKhachHang)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHangHoa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton5)).BeginInit();
@@ -51,7 +51,7 @@
             // 
             this.radPanel1.BackgroundImage = global::DeTaiTelerikLTCSDL.Properties.Resources._2;
             this.radPanel1.Controls.Add(this.btnKhachHang);
-            this.radPanel1.Controls.Add(this.radButton2);
+            this.radPanel1.Controls.Add(this.btnHangHoa);
             this.radPanel1.Controls.Add(this.radButton1);
             this.radPanel1.Controls.Add(this.radButton6);
             this.radPanel1.Controls.Add(this.radButton5);
@@ -74,17 +74,18 @@
             this.btnKhachHang.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
             this.btnKhachHang.Click += new System.EventHandler(this.btnKhachHang_Click);
             // 
-            // radButton2
+            // btnHangHoa
             // 
-            this.radButton2.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radButton2.ForeColor = System.Drawing.Color.LawnGreen;
-            this.radButton2.Image = global::DeTaiTelerikLTCSDL.Properties.Resources.Actions_system_reboot_icon__2_;
-            this.radButton2.Location = new System.Drawing.Point(31, 46);
-            this.radButton2.Name = "radButton2";
-            this.radButton2.Size = new System.Drawing.Size(309, 80);
-            this.radButton2.TabIndex = 4;
-            this.radButton2.Text = "Quản Lý Hàng Hóa ST";
-            this.radButton2.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHangHoa.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHangHoa.ForeColor = System.Drawing.Color.LawnGreen;
+            this.btnHangHoa.Image = global::DeTaiTelerikLTCSDL.Properties.Resources.Actions_system_reboot_icon__2_;
+            this.btnHangHoa.Location = new System.Drawing.Point(31, 46);
+            this.btnHangHoa.Name = "btnHangHoa";
+            this.btnHangHoa.Size = new System.Drawing.Size(309, 80);
+            this.btnHangHoa.TabIndex = 4;
+            this.btnHangHoa.Text = "Quản Lý Hàng Hóa ST";
+            this.btnHangHoa.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnHangHoa.Click += new System.EventHandler(this.btnHangHoa_Click);
             // 
             // radButton1
             // 
@@ -151,7 +152,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).EndInit();
             this.radPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnKhachHang)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHangHoa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radButton5)).EndInit();
@@ -169,7 +170,7 @@
         private Telerik.WinControls.UI.RadButton radButton5;
         private Telerik.WinControls.UI.RadLabel radLabel1;
         private Telerik.WinControls.Themes.AquaTheme aquaTheme1;
-        private Telerik.WinControls.UI.RadButton radButton2;
+        private Telerik.WinControls.UI.RadButton btnHangHoa;
         private Telerik.WinControls.UI.RadButton btnKhachHang;
     }
 }

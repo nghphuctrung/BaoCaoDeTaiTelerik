@@ -39,10 +39,11 @@ C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTel
 C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\TelerikCommon.dll
 C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\Telerik.WinControls.xml
 C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\bin\Debug\Telerik.WinControls.UI.xml
-C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.csprojResolveAssemblyReference.cache
 C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.FormDangNhap.resources
 C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.FormGiaoDienChinh.resources
 C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.FormKhachHang.resources
 C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.Properties.Resources.resources
 C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.csproj.GenerateResource.Cache
 C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.exe.licenses
+C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.FormHangHoa.resources
+C:\Users\Home\Desktop\DeTaiLTCSDL\BaoCaoDeTaiTelerik\DeTaiTelerikLTCSDL\DeTaiTelerikLTCSDL\obj\x86\Debug\DeTaiTelerikLTCSDL.csprojResolveAssemblyReference.cache

@@ -12,6 +12,7 @@ namespace DeTaiTelerikLTCSDL
     public partial class FormGiaoDienChinh : Telerik.WinControls.UI.RadForm
     {
         FormKhachHang FKH;
+        FormHangHoa FHH;
         public FormGiaoDienChinh()
         {
             InitializeComponent();
@@ -34,6 +35,14 @@ namespace DeTaiTelerikLTCSDL
             FKH = new FormKhachHang();
             FKH.Activate();
             FKH.Show();
+        }
+
+        private void btnHangHoa_Click(object sender, EventArgs e)
+        {
+            Visible = false;
+            FHH = new FormHangHoa();
+            FHH.Activate();
+            FHH.Show();
         }
     }
 }
