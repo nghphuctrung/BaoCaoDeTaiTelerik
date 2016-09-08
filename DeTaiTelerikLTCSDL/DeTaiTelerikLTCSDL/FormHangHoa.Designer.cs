@@ -32,7 +32,6 @@
             this.radPanel1 = new Telerik.WinControls.UI.RadPanel();
             this.radGridView1 = new Telerik.WinControls.UI.RadGridView();
             this.radPanel2 = new Telerik.WinControls.UI.RadPanel();
-            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             this.btnExit = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel1)).BeginInit();
             this.radPanel1.SuspendLayout();
@@ -40,7 +39,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGridView1.MasterTemplate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel2)).BeginInit();
             this.radPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -77,31 +75,18 @@
             // radPanel2
             // 
             this.radPanel2.BackgroundImage = global::DeTaiTelerikLTCSDL.Properties.Resources._2;
-            this.radPanel2.Controls.Add(this.radButton1);
             this.radPanel2.Controls.Add(this.btnExit);
-            this.radPanel2.Location = new System.Drawing.Point(517, 383);
+            this.radPanel2.Location = new System.Drawing.Point(679, 383);
             this.radPanel2.Name = "radPanel2";
-            this.radPanel2.Size = new System.Drawing.Size(307, 148);
+            this.radPanel2.Size = new System.Drawing.Size(145, 148);
             this.radPanel2.TabIndex = 1;
-            // 
-            // radButton1
-            // 
-            this.radButton1.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radButton1.Image = global::DeTaiTelerikLTCSDL.Properties.Resources.edit_file_icon__1_;
-            this.radButton1.ImageAlignment = System.Drawing.ContentAlignment.TopCenter;
-            this.radButton1.Location = new System.Drawing.Point(32, 13);
-            this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(112, 117);
-            this.radButton1.TabIndex = 5;
-            this.radButton1.Text = "Lưu";
-            this.radButton1.TextAlignment = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Image = global::DeTaiTelerikLTCSDL.Properties.Resources.Action_exit_icon;
             this.btnExit.ImageAlignment = System.Drawing.ContentAlignment.TopCenter;
-            this.btnExit.Location = new System.Drawing.Point(168, 13);
+            this.btnExit.Location = new System.Drawing.Point(18, 14);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(112, 117);
             this.btnExit.TabIndex = 4;
@@ -130,7 +115,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.radGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radPanel2)).EndInit();
             this.radPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
@@ -143,6 +127,5 @@
         private Telerik.WinControls.UI.RadGridView radGridView1;
         private Telerik.WinControls.UI.RadPanel radPanel2;
         private Telerik.WinControls.UI.RadButton btnExit;
-        private Telerik.WinControls.UI.RadButton radButton1;
     }
 }
